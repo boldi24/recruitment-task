@@ -17,3 +17,15 @@
     ... // continues the work 
   };
 */
+
+
+const sleep = (ms) => ms; // implementation goes here
+
+
+(async () => {
+  console.log('Started', new Date().toLocaleTimeString());
+
+  await sleep(10000);
+
+  console.log('Finished', new Date().toLocaleTimeString());
+})();

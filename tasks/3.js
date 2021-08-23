@@ -9,8 +9,8 @@
     - POST /asset/{id}/token: Generates token that is valid for that specific asset only for 15 minutes.
 
 [Prerequisites]
-  - If asset is fetched with valid token - asset object & specific code should be returned
-  - If asset is fetched with wrong or expired token - specific code should be returned
+  - If asset is fetched with valid token - asset object & specific HTTP code should be returned
+  - If asset is fetched with wrong or expired token - specific HTTP code should be returned with some message
   - Feel free to use any web framework you want
 
 */

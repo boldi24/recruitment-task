@@ -13,3 +13,17 @@
   - Given 100 API calls, 30 requests in a single batch.
   - Function should perform 4 batches - (30, 30, 30, 10);
 */
+
+const apiCall = (item) => {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(item), 500);
+  });
+};
+
+const exampleArray = new Array(100).fill(0).map(() => Math.floor(Math.random()*1000));
+
+
+(async () => {
+  // ...
+  console.log(exampleArray);
+})();
