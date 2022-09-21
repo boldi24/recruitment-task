@@ -46,7 +46,20 @@ export class SomeClass {
  */
 
 /**
- * Task 3:
+ * Task 3: Write a mini REST API that meets following requirements:
+ * @description 
+    -Listens on port 4000
+    -For POST / requests:
+      X-Api-Secret header is mandatory
+      If X-Api-Secret is present, respond with successful code
+      If X-Api-Secret is NOT present, respond with error code and with a json object { error: "missing X-Api-Secret" }
+    -Any other request (other than POST /) should return resource not found status code
+    -Your REST API should run using the command:
+      npm run dev
+ */
+
+/**
+ * Task 4:
  * @description You receive a task from Product Team: "We want to track comments in our analytics module,
  * please call Analytics Service with some payload"
  *
