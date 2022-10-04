@@ -36,7 +36,6 @@ export class SomeClass {
  * Task 1: Please list code smells from that code
  *
  * @description Open question
- * @example missing types, terrible nested ifs, object mutation,no dependency injection, bad error handling
  */
 
 /**
